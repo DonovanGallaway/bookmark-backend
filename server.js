@@ -7,7 +7,7 @@ const morgan = require('morgan')
 const mongoose = require('mongoose') // This can be changed to './database/connection' if you make a connection.js file
 const cors = require('cors')
 const app = express()
-const {PORT = 3000} = process.env
+const { PORT } = process.env
 
 
 /////////////////////////////////
